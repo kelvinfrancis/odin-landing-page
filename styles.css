@@ -91,4 +91,49 @@ button:hover {
     }
 }
 
+/* Information */
+#social-proof {
+    padding: 10% 15% 0 15%;
+
+    & center {
+        font-size: 36px;
+        font-weight: bolder;
+        color: #1f231f;
+        margin-bottom: 100px;
+    }
+
+    & #information-list,
+    #information-list ul {
+        width: 100%;
+        height: 10vh;
+    }
+
+    & #information-list ul {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: auto;
+        width: 100%;
+    }
+
+    & #information-list ul li {
+        height: 500px;
+    }
+
+    & .information-icons img {
+        border-radius: 20px;
+        width: 200px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+
+    & .information-subtext {
+        width: 200px;
+        color: #54565a;
+        font-size: 20px;
+    }
+
+}
 
